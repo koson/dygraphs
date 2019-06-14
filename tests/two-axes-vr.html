@@ -3,17 +3,19 @@
   <head>
     <link rel="stylesheet" href="../dist/dygraph.css">
     <title>Multiple y-axes with valueRange</title>
-    <script type="text/javascript" src="../dist/dygraph.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.css" />   
+    
 
   </head>
   <body>
     <h2>Multiple y-axes with valueRange</h2>
     <p>The same data with both different valueRanges. Two-axis old y[40, 70] valueRange:</p>
-    <div id="demodiv" style="width: 640; height: 350; border: 1px solid black"></div>
+    <div id="demodiv" style="width: 640; height: 350; border: 1px solid rgb(207, 33, 33)"></div>
     <p>Two-axis new valueRange y[40, 80] set:</p>
-    <div id="demodiv_one" style="width: 640; height: 350; border: 1px solid black"></div>
+    <div id="demodiv_one" style="width: 640; height: 350; border: 1px solid rgb(206, 45, 45)"></div>
     <p>Two-axis new valueRange y[40, 80] &amp; y2[1e6, 1.2e6] set:</p>
-    <div id="demodiv_two" style="width: 640; height: 350; border: 1px solid black"></div>
+    <div id="demodiv_two" style="width: 640; height: 350; border: 1px solid rgb(194, 39, 39)"></div>
     <script type="text/javascript">
       var data = [];
       for (var i = 1; i <= 100; i++) {
